@@ -1,0 +1,13 @@
+.imgEP {
+    margin: 0 auto;
+    width: 250px !important;
+    max-width: none !important;
+    height: auto;
+    display: block;
+}
+
+body{
+    background-image: url("https://i.pinimg.com/736x/56/35/d8/5635d897a5ebc9923114a39bd9a4843e.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

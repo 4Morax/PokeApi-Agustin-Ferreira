@@ -1,0 +1,60 @@
+.App-sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 60px; 
+  height: 100%;
+  background-color: #333;
+  transition: width 0.3s ease; 
+  overflow-x: hidden; 
+  z-index: 1000; 
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; 
+}
+
+.App-sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: auto; 
+}
+
+#pikaRun {
+  width: 60px; 
+  position: absolute; 
+  bottom: 0px; 
+  right: 0; 
+}
+
+#pika {
+  width: 80px; 
+}
+
+.App-sidebar:hover {
+  width: 250px; 
+}
+
+.App-sidebar ul li {
+  padding: 15px;
+}
+
+.App-sidebar ul li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.App-sidebar ul li a:hover {
+  background-color: #575757;
+}
+
+.App-sidebar ul li a {
+  text-align: center;
+  padding-left: 10px; 
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

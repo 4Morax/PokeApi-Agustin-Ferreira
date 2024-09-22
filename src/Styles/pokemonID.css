@@ -1,0 +1,30 @@
+body{
+    background-image: url("https://i.pinimg.com/736x/0f/8a/55/0f8a5538756a7348e8fbded85dd56173.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+:root{
+        font-family: "Handjet", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 100;
+        font-style: normal;
+        font-variation-settings:
+          "ELGR" 1,
+          "ELSH" 2;
+    color:  #eef2f5 ;
+}
+
+img{
+    width: 300px;
+    padding-top: 1px;
+    margin-top: 1px;
+}
+
+h1{
+    padding-bottom: 1px;
+    margin-bottom: 1px;
+    text-align: center;
+    padding-top: 50px;
+}
